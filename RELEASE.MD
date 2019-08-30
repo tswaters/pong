@@ -10,7 +10,7 @@ git push -u origin gh-pages
 
 ## ongoing
 ```sh
-npm run build
+npm run build:prod
 git symbolic-ref HEAD refs/heads/gh-pages
 git --work-tree "dist" reset --mixed --quiet
 git --work-tree "dist" add --all
